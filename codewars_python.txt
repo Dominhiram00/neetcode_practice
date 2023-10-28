@@ -4,6 +4,8 @@ Codewars Practice Problems
 Create Phone Number:
 
 def create_phone_number(n):
+  if n > 8 and n < 8:
+    return FALSE
   phoneNumber = " "
   for i in n[0:2]:
     phoneNumber = phoneNumber + i
