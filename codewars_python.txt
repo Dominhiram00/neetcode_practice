@@ -1,0 +1,16 @@
+===========================
+Codewars Practice Problems
+============================
+Create Phone Number:
+
+def create_phone_number(n):
+  phoneNumber = " "
+  for i in n[0:2]:
+    phoneNumber = phoneNumber + i
+  phoneNumber = "(" + phoneNumber + ")"
+  for i in n[3:5]:
+    phoneNumber = phoneNumber + i
+  phoneNumber = phoneNumber + "-"
+  for i in n[6:8]:
+    phoneNumber = phoneNumber + i
+  return phoneNumber
